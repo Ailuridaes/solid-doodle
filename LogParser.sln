@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.0.0
-MinimumVisualStudioVersion = 10.0.0.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogParser", "LogParser\LogParser.csproj", "{45ADD5D3-94F0-4BB0-86E0-524995BD0853}"
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogParser", "LogParser\LogParser.csproj", "{45ADD5D3-94F0-4BB0-86E0-524995BD0853}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogGenerator", "LogGenerator\LogGenerator.csproj", "{CA287F06-2C5D-4BF1-8960-DBF3C576B9B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogGenerator", "LogGenerator\LogGenerator.csproj", "{CA287F06-2C5D-4BF1-8960-DBF3C576B9B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterStream", "TwitterStream\TwitterStream.csproj", "{681C0F03-7B0A-448A-819A-7725D676D328}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{CA287F06-2C5D-4BF1-8960-DBF3C576B9B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA287F06-2C5D-4BF1-8960-DBF3C576B9B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA287F06-2C5D-4BF1-8960-DBF3C576B9B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{681C0F03-7B0A-448A-819A-7725D676D328}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{681C0F03-7B0A-448A-819A-7725D676D328}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{681C0F03-7B0A-448A-819A-7725D676D328}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{681C0F03-7B0A-448A-819A-7725D676D328}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
